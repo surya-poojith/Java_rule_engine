@@ -6,7 +6,7 @@ public class RuleRepository {
     private final List<VisaRule> rules;
 
     public RuleRepository(List<VisaRule> rules) {
-        if (rules == null || rules.isEmpty()) { //here we used defensive coding
+        if (rules == null || rules.isEmpty()) { //here i used defensive coding
             throw new IllegalArgumentException("Rules list cannot be null or empty");
         }
         this.rules = rules;
