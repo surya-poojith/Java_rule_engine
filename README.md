@@ -10,7 +10,7 @@ The system validates the configuration strictly and evaluates rules at runtime w
 ---
 
 ## Project Structure
-
+```
 java_rule_engine/
 ├── Main.java
 ├── RuleLoader.java
@@ -27,7 +27,7 @@ java_rule_engine/
 └── lib/
 └── jackson libraries
 
-
+```
 ---
 
 ## Components
