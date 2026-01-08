@@ -1,0 +1,8 @@
+public enum DocumentType {
+    PASSPORT,
+    PHOTO,
+    BANK_STATEMENT,
+    TRAVEL_INSURANCE,
+    FINANCIAL_PROOF,
+    ADMISSION_LETTER
+}
